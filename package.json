@@ -1,6 +1,6 @@
 {
   "name": "is-git-branch-name-valid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check that a git branch name is well formed",
   "license": "MIT",
   "author": "Vincent Weevers",
