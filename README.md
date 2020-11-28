@@ -12,11 +12,11 @@
 ```js
 const validBranch = require('is-git-branch-name-valid')
 
-validRef('foo.bar')     // true
-validRef('foo-bar/baz') // true
-validRef('foo^bar')     // false
-validRef('HEAD')        // false
-validRef('-foo')        // false
+validBranch('foo.bar')     // true
+validBranch('foo-bar/baz') // true
+validBranch('foo^bar')     // false
+validBranch('HEAD')        // false
+validBranch('-foo')        // false
 ```
 
 ## API
